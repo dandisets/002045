@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -21,8 +22,8 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-10-30T12:56:40.569050+00:00'
-description: "Data from \"Separating and combining motor memories with training order.\"\
-  \ Jae-Hyun Kim, Wei Nora Zhang, Nuo Li. Nat Neurosci 2026\n\nElectrophysiology data
+description: 'Data from "Separating and combining motor memories with training order."
+  Jae-Hyun Kim, Wei Nora Zhang, Nuo Li. Nat Neurosci 2026  Electrophysiology data
   from anterior lateral motor cortex in the mouse across two tasks. Mice performed
   directional tongue movements (lick left or lick right) under two distinct task contexts.
   In the tactile context, lick direction was instructed by the position of a pole
@@ -30,16 +31,9 @@ description: "Data from \"Separating and combining motor memories with training 
   In the auditory context, lick direction was instructed by the frequency of a pure
   tone (2 kHz for lick left; 10 kHz for lick right). Data from two cohorts of mice
   were trained to perform these two tasks with different currculum - blocked versus
-  interleaved.\n\nElectrophysiological recordings from the anterior lateral motor
-  cortex (ALM) of mice performing two tasks. In both tasks, mice made directional
-  tongue movements (lick left or lick right) based on sensory cues. In the tactile
-  context, lick direction was instructed by the position of a pole presented to the
-  whiskers (anterior for left, posterior for right). In the auditory context, lick
-  direction was instructed by the frequency of a pure tone (2 kHz for left, 10 kHz
-  for right). Two cohorts of mice were trained to perform these tasks using different
-  training curriculum: blocked versus interleaved.\n\nThis work was funded by NIH
-  NS131229, NS132025, NS142432, Simons Collaboration on the Global Brain, and PEW
-  Innovation Fund. "
+  interleaved.  This work was funded by NIH NS131229, NS132025, NS142432, Simons Collaboration
+  on the Global Brain, and PEW Innovation Fund. '
+ethicsApproval: []
 id: DANDI:002045/draft
 identifier: DANDI:002045
 license:
@@ -47,8 +41,10 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/002045/versions/draft/assets/
 name: Separating and combining motor memories with training order
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/002045/draft
 version: draft
+wasGeneratedBy: []
