@@ -36,7 +36,7 @@ assetsSummary:
   - SpikeEventSeries
   - ProcessingModule
 citation: Li, Nuo (2026) Separating and combining motor memories with training order
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/002045/draft
+  (Version 0.261105.1508) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.002045/0.261105.1508
 contributor:
 - affiliation: []
   email: nuo.li@bcm.edu
@@ -46,6 +46,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-10-30T12:56:40.569050+00:00'
+datePublished: '2026-11-05T15:08:07.312383+00:00'
 description: 'Data from "Separating and combining motor memories with training order."
   Jae-Hyun Kim, Wei Nora Zhang, Nuo Li. Nat Neurosci 2026  Electrophysiology data
   from anterior lateral motor cortex in the mouse across two tasks. Mice performed
@@ -57,18 +58,31 @@ description: 'Data from "Separating and combining motor memories with training o
   were trained to perform these two tasks with different currculum - blocked versus
   interleaved.  This work was funded by NIH NS131229, NS132025, NS142432, Simons Collaboration
   on the Global Brain, and PEW Innovation Fund. '
+doi: 10.48324/dandi.002045/0.261105.1508
 ethicsApproval: []
-id: DANDI:002045/draft
+id: DANDI:002045/0.261105.1508
 identifier: DANDI:002045
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002045/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002045/0.261105.1508/assets.yaml
 name: Separating and combining motor memories with training order
+publishedBy:
+  endDate: '2026-11-05T15:08:07.312383+00:00'
+  id: urn:uuid:1ed76a3a-cb31-4777-b857-a4293c0f2ed5
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-11-05T15:08:07.312383+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:b864aa2d-d03c-462b-a26c-e31180160c60
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002045/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002045/0.261105.1508
+version: 0.261105.1508
 wasGeneratedBy: []
